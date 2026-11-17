@@ -1,0 +1,17 @@
+# What this project differs by. Everything else lives in the shared devscripts checkout.
+name = "istar-f1data"
+env_prefix = "F1DATA"
+
+# A library: there is no program to run, the tests are what `cpp.py verify` runs.
+[cpp]
+build_dir = "build"
+build_type = "RelWithDebInfo"
+
+# Applications of any licence may use it; changes to the library itself stay open.
+[spdx]
+holder = "Pascal Klose"
+licence = "LGPL-3.0-or-later"
+
+[repo]
+main_branch = "master"
+ci = false
