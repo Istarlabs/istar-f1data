@@ -15,3 +15,20 @@ licence = "LGPL-3.0-or-later"
 [repo]
 main_branch = "master"
 ci = false
+
+# Created by `repo.py init` and `repo.py labels`, next to the shared ones.
+
+[[repo.labels]]
+name = "format"
+color = "0e8a16"
+description = "The packet format and its documentation"
+
+[[repo.labels]]
+name = "verification"
+color = "fbca04"
+description = "To be checked against the real game"
+
+[[repo.labels]]
+name = "tooling"
+color = "1d76db"
+description = "Capture and helper tools"
